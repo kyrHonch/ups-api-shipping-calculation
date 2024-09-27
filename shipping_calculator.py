@@ -3,7 +3,7 @@ import create_oauth_token
 
 # https://developer.ups.com/api/reference?loc=en_US#tag/Rating
 
-access_token = create_oauth_token.get_oath_token()
+access_token = create_oauth_token.get_oauth_token()
 version = "v2403"
 requestoption = "Rate"
 

@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 # https://developer.ups.com/api/reference?loc=en_US#tag/OAuth-Client-Credentials
 
-def get_oath_token():
+def get_oauth_token():
     load_dotenv()
     client_id = os.getenv("CLIENT_ID")
     client_secret = os.getenv("CLIENT_SECRET")
